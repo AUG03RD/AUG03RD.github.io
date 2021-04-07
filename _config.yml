@@ -18,15 +18,15 @@ permalink: /posts/:title/
 texture:
 navigation: 
 - title: Daily
-url: "/daily"
+url: "https://aug03rd.github.io/daily"
 - title: From Team
-url: "from-team"
+url: "https://aug03rd.github.io/from-team"
 style: blue
   title: 팔월삼일
   tagline: 리쿠르터의 일상
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
+  showNav: true
   showPicker: true
 
   # generate social links in footer
