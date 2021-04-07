@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
-baseurl: /aug03rd.github.io
+baseurl: /texture
 remote_theme: thelehhman/texture
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -15,6 +15,12 @@ sass:
 
 permalink: /posts/:title/
 texture:
+navigation: 
+- title: Daily
+url: "/daily"
+- title: From Team
+url: "from-team"
+style: blue
   title: 팔월삼일
   tagline: 리쿠르터의 일상
   date_format: "%b %-d, %Y"
@@ -37,6 +43,7 @@ texture:
 
 # Build settings
 # theme: texture
+gem "texture"
 
 plugins:
   - jekyll-seo-tag
