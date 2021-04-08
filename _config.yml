@@ -45,6 +45,8 @@ style: blue
 
 
 plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
-gem 'jekyll-admin', group: :jekyll_plugins
+ - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-plugin
+  
