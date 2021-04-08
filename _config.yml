@@ -13,25 +13,27 @@ sass:
   sass_dir: _sass
 
 permalink: /posts/:title/
+theme: texture
 texture:
-navigation: 
+ showNav: true
+ navigation: 
 - title: Daily
-url: "https://aug03rd.github.io/daily"
+  url: "https://aug03rd.github.io/daily"
 - title: From Team
-url: "https://aug03rd.github.io/from-team"
-style: blue
-  title: 팔월삼일
-  tagline: 리쿠르터의 일상
-  date_format: "%b %-d, %Y"
-  style: blue 
-  showNav: true
-  showPicker: true
+  url: "https://aug03rd.github.io/from-team"
+ title: 팔월삼일
+ tagline: 리크루터의 일상
+ data_format: "%b %-d, %Y"
+ 
+
+
+    showPicker: false
 
   # generate social links in footer
   social_links:
-    twitter: null 
+    twitter: Null 
     github:  AUG03RD
-    linkedIn: null
+    linkedIn: Null
     rss: rss
  
 
@@ -42,7 +44,7 @@ style: blue
 
 # Build settings
 # theme: texture
-
+ style: blue 
 
 plugins:
  - jekyll-gist
