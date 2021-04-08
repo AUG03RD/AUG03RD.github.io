@@ -47,3 +47,4 @@ style: blue
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+gem 'jekyll-admin', group: :jekyll_plugins
