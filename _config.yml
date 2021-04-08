@@ -1,13 +1,11 @@
-title: "Site title"
-author: 팔월삼일
-email: your-email@domain.com
+title: "팔월삼일"
+author: 리크루터의 일상★
+email: official@aug3rd.co.kr
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ 완전 문과of문과 리크루터가 만들어본 우리회사 블로그.
 show_excerpts: true # set to true to show excerpts on the homepage
-url: https://aug03rd.github.io/
-baseurl:
+url: "https://aug03rd.github.io"
+baseurl: "/aug03rd"
 remote_theme: thelehhman/texture
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -25,15 +23,15 @@ style: blue
   title: 팔월삼일
   tagline: 리쿠르터의 일상
   date_format: "%b %-d, %Y"
-  style: black
+  style: blue 
   showNav: true
   showPicker: true
 
   # generate social links in footer
   social_links:
-    twitter: 
+    twitter: null 
     github:  AUG03RD
-    linkedIn: 
+    linkedIn: null
     rss: rss
  
 
