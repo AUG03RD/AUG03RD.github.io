@@ -1,4 +1,4 @@
-title: Texture Theme
+title: 8월3일 아니고 팔월삼일
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -15,8 +15,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: 화창한 팔월삼일 블로그
+  tagline: RECRUITING TEAM
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
