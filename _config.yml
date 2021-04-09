@@ -2,7 +2,7 @@ title: "팔월삼일"
 author: 리크루터의 일상★
 email: official@aug3rd.co.kr
 description: > # this means to ignore newlines until "show_exerpts:"
- 완전 문과of문과 리크루터가 만들어본 우리회사 블로그.
+완전 문과of문과 리크루터가 만들어본 우리회사 블로그.
 show_excerpts: true # set to true to show excerpts on the homepage
 url: "https://aug03rd.github.io"
 baseurl: "/aug03rd"
@@ -15,19 +15,16 @@ sass:
 permalink: /posts/:title/
 theme: texture
 texture:
- showNav: true
- navigation: 
+showNav: true
+navigation: 
 - title: Daily
-  url: "https://aug03rd.github.io/daily"
+url: "https://aug03rd.github.io/daily"
 - title: From Team
-  url: "https://aug03rd.github.io/from-team"
- title: 팔월삼일
- tagline: 리크루터의 일상
- data_format: "%b %-d, %Y"
- 
-
-
-    showPicker: false
+url: "https://aug03rd.github.io/from-team"
+title: 팔월삼일
+tagline: 리크루터의 일상
+data_format: "%b %-d, %Y"
+showPicker: false
 
   # generate social links in footer
   social_links:
@@ -44,10 +41,10 @@ texture:
 
 # Build settings
 # theme: texture
- style: blue 
+style: blue 
 
 plugins:
- - jekyll-gist
+ -  jekyll-gist
   - jekyll-coffeescript
   - jekyll-assets
   - another-jekyll-plugin
