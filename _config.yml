@@ -18,7 +18,7 @@ texture:
   title: 화창한 팔월삼일 블로그
   tagline: RECRUITING TEAM
   date_format: "%b %-d, %Y"
-  style: black
+  style: blue
   showNav: false
   showPicker: true
 
