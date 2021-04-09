@@ -1,36 +1,32 @@
-title: "팔월삼일"
-author: 리크루터의 일상★
-email: official@aug3rd.co.kr
+title: Texture Theme
+author: GitHub User
+email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
-완전 문과of문과 리크루터가 만들어본 우리회사 블로그.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
-url: "https://aug03rd.github.io"
-baseurl: "/aug03rd"
-remote_theme: thelehhman/texture
+baseurl: /texture
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
   sass_dir: _sass
 
 permalink: /posts/:title/
-theme: texture
 texture:
-showNav: true
-navigation: 
-- title: Daily
-url: "https://aug03rd.github.io/daily"
-- title: From Team
-url: "https://aug03rd.github.io/from-team"
-title: 팔월삼일
-tagline: 리크루터의 일상
-data_format: "%b %-d, %Y"
-showPicker: false
+  title: Adam Denisov
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: false
+  showPicker: true
 
   # generate social links in footer
   social_links:
-    twitter: Null 
-    github:  AUG03RD
-    linkedIn: Null
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman
     rss: rss
  
 
@@ -41,11 +37,7 @@ showPicker: false
 
 # Build settings
 # theme: texture
-style: blue 
 
 plugins:
- -  jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-assets
-  - another-jekyll-plugin
-  
+  - jekyll-seo-tag
+#  - jekyll-feed
